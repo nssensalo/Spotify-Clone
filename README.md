@@ -5,7 +5,9 @@
 </p>
 This app, built from scratch, allows for user registration, searching for favorite artist, albums, and songs in realtime, creation and customization of playlist, and use of music controls including play, pause, skip, previous, shuffe, and repeat.
 
-Note: Built for learning purposes only
+
+**Note: This project is in progress and is built for learning purposes only**
+
 
 ---
 ## Technology
