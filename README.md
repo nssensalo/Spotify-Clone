@@ -1,7 +1,7 @@
 <h1 align="center"> Spotify Clone (not for commercial use) </h1>
 
 <p align="center" width="100%">
-    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/classicalimageBackground.jpg" width="400" height="500" />
+    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/classicalmusicBackground.jpg" width="400" height="500" />
 </p>
 This app built from scratch allows for user registration, searching for favorite artist, albums, and songs in realtime, creation and customization of playlist, and use of music controls including play, pause, skip, previous, shuffe, and repeat.
 
@@ -13,6 +13,8 @@ This app built from scratch allows for user registration, searching for favorite
 
 
 **Html** 
+
+  
 **Css**
   
 </details>
@@ -25,6 +27,7 @@ This app built from scratch allows for user registration, searching for favorite
 
 
 **MySQLite** 
+
 
 **Javascrips** 
 
