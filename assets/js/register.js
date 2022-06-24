@@ -1,13 +1,18 @@
 $(document).ready(function() {
-
+	
 	$("#hideLogin").click(function() {
-		$("#LoginForm").hide();
+		
+		$("#loginForm").hide();
 		$("#registerForm").show();
 
 	});
 
 	$("#hideRegister").click(function() {
-		$("#LoginForm").show();
+		
+		$("#loginForm").show();
 		$("#registerForm").hide();
-    });
+
+	});
+
+  
 });

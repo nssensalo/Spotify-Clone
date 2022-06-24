@@ -1,20 +1,19 @@
-html, 
+html,
 body {
+
 	padding: 0;
 	margin: 0;
 	height: 100%;
 }
-
 #background {
 	background-color: #000;
-    background-image: url(../images/classicalBackground.jpg);
-    background-position: center;
-    background-size: cover;
-    display: table;
-    height: 100%;
-    width: 100%;
+	background-image: url(../images/classicalmusicBackground.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
 }
-
 #loginContainer * {
 	color: #fff;
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -22,14 +21,12 @@ body {
 	line-height: 1em;
 	box-sizing: border-box;
 }
-
 #loginContainer {
 	width: 80%;
 	margin: 0 auto;
 	position: relative;
 	max-width: 1024px;
 }
-
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #fff;
 }
@@ -49,16 +46,14 @@ body {
 }
 
 #inputContainer {
-    width: 400px;
+	width: 400px;
     padding: 45px;
     float: left;
     border-right: 1px solid #999;
 }
-
 #inputContainer h2 {
 	text-align: center;
 }
-
 #inputContainer input[type="text"],
 #inputContainer input[type="email"],
 #inputContainer input[type="password"] {
@@ -70,14 +65,18 @@ body {
     line-height: 27px;
     width: 100%;
 }
-
 #inputContainer label {
-	color: #a0a0a0;
+	color: #fff;
     font-size: 13px;
     margin-top: 15px;
     display: block;
 }
-
+#inputContainer label {
+	color: #a0a0a0;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+}
 #inputContainer button {
 	background-color: transparent;
     border: 2px solid #fff;
@@ -90,26 +89,21 @@ body {
     height: 41px;
     width: 100%;
 }
-
 #inputContainer button:hover {
 	cursor: pointer;
 }
-
 .hasAccountText span {
 	font-weight: bold;
     font-size: 12px;
     cursor: pointer;
 }
-
 .hasAccountText {
 	text-align: center;
 }
-
 #registerForm,
 #loginForm {
 	display: none;
 }
-
 #loginText {
     padding: 45px;
     display: table-cell;
@@ -132,7 +126,7 @@ body {
 #loginText li {
     font-size: 20px;
     list-style-type: none;
-    padding: 5px 30px;
+    padding: 5px 50px;
     background: url(../images/icons/greennote.png) no-repeat 0 0;
 }
 
@@ -140,4 +134,9 @@ body {
     color: #07d159;
     font-size: 12px;
     display: block;
-}
+
+
+
+
+
+
