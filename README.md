@@ -3,7 +3,7 @@
 <p align="center" width="100%">
     <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/icons/frontpage.png" width="600" height="600" />
 </p>
-This app, built from scratch, allows for user registration, searching for favorite artist, albums, and songs in realtime, creation and customization of playlist, and use of music controls including play, pause, skip, previous, shuffe, and repeat.
+This app, built from scratch, allows for user registration, searching for favorite artist, albums, and songs in realtime, creation and customization of playlist, and use of music controls including play, pause, skip, previous, shuffle, and repeat.
 
 
 **Note: This project is in progress and is built for learning purposes only**
