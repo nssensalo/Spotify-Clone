@@ -1,120 +1,39 @@
+<?php include("includes/header.php") ?>
 
-
-<?php 
-include("includes/config.php");
-
-//session_destroy();
-
-if(isset($_SESSION['userLoggedIn'])) {
-	$userLoggedIn = $_SESSION['userLoggedIn'];
-}
-else {
-	header("Location: register.php");
-}
-
-?>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Welcome!</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-	<div class="mainContainer">
-		<div id="topContainer">
+<h1 class="pageHeadingBig">You Might Also Like</h1>
+<div class="gridViewContainer">
+	<?php 
+		$albumQuery = mysqli_query($con, "SELECT * FROM albums ORDER BY RAND() LIMIT 10");
+		while($row = mysqli_fetch_array($albumQuery)) {
 			
-		</div>
 
-		<div id="nowPlayingBarContainer">
 
-		<div id="nowPlayingBar">
+			echo "<div class='gridViewItem'>
+					<a href='album.php?id=" . $row['id'] . "'>
 
-			<div id="nowPlayingLeft">
-				<div class="content">
-					<span class="albumlink">
-						<img src="https://toytheater.com/wp-content/uploads/graph_square-1.gif" class="albumArtwork">
-					</span>
+						<img src=' " . $row['artworkPath'] . "'>
 
-					<div class="trackInfo">
-						<span class="trackName">
-							<span>Happy Birthday</span>
-						</span>
-						<span class="artistName">
-							<span>Nansamba Ssensalo</span>
-						</span>
-					</div>
-				</div>
+						<div class='gridViewInfo'> "
+							. $row['title'] .
+	 
+						"</div>
+				    </a>
+				</div>";
+		}
+
+	?>
+</div>
+
+
+
+
+<?php include("includes/footer.php") ?>
+
+					
 				
-			</div>
-			<div id="nowPlayingCenter">
-				<div class="content playerControls">
-					<div class="buttons">
-						<button class="controlButton shuffle" title="Shuffle button">
-							<img src="assets/images/icons/shuffle.png" alt="Shuffle">
-						</button>
-						<button class="controlButton previous" title="Previous button">
-							<img src="assets/images/icons/previous.png" alt="Previous">
-						</button>
-						<button class="controlButton play" title="Play button">
-							<img src="assets/images/icons/play.png" alt="Play">
-						</button>
-						<button class="controlButton pause" title="Pause button" style="display: none;">
-							<img src="assets/images/icons/play.png" alt="Pause">
-						</button>
-						<button class="controlButton next" title="Next button">
-							<img src="assets/images/icons/next.png" alt="Next">
-						</button>
-						<button class="controlButton repeat" title="Repeat button">
-							<img src="assets/images/icons/repeat.png" alt="Repeat">
-						</button>
-					</div>
-					<div class="playBackBar">
-						<span class="progressTime current">0.00</span>
-						<div class="progressBar">
-							<div class="progressBarBg">
-								<div class="progress"></div>
-							</div>
-							
-						</div>
-						<span class="progressTime remaining">0.00</span>
 
-						
-					</div>
-				</div>
+
+
+
+
 				
-			</div>
-			<div id="nowPlayingRight">
-				<div class="volumeBar">
-					<button class="controlButton" title="Volume button">
-						<img src="assets/images/icons/volume.png" alt="Volume">
-					</button>
-
-					<div class="progressBar">
-							<div class="progressBarBg">
-								<div class="progress"></div>
-							</div>
-					</div>
-				
-				</div>
-				
-			</div>
-
-
-
-
-
-
-
-			
-		</div>
-		
-	</div>
-
-		
-	</div>
-	
-</body>
-</html>
