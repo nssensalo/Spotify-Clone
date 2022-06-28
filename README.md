@@ -20,10 +20,12 @@ This app, built from scratch, allows for user registration, searching for favori
 <summary>Front-End Development</summary>
 
 
-**Html** 
+**CSS** 
 
   
-**Css**
+**PHP**
+
+**Html**
   
 </details>
 
@@ -31,13 +33,16 @@ This app, built from scratch, allows for user registration, searching for favori
 <summary>Back-End Development</summary>
 
 
-**Xampp** 
+**JavaScript** 
 
 
 **MySQLite** 
 
 
-**Javascrips** 
+**Ajax** 
+
+
+**Xampp**
 
 
 </details>
