@@ -6,7 +6,11 @@
 This app, built from scratch, allows for user registration, searching for favorite artist, albums, and songs in realtime, creation and customization of playlist, and use of music controls including play, pause, skip, previous, shuffle, and repeat.
 
 <p align="center" width="100%">
-    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/slotifyIndexSnippet.png" width="600" height="600" />
+    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/slotify/youmayalsolikePage.png" width="600" height="600" />
+</p>
+
+<p align="center" width="100%">
+    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/slotify/albumsnippet.png" width="600" height="600" />
 </p>
 
 
