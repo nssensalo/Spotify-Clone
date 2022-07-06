@@ -29,6 +29,9 @@
 		public function getTitle() {
 			return $this->title;
 		}
+		public function getID() {
+			return $this->id;
+		}
 		public function getArtist() {
 			return new Artist($this->con, $this->artistId);
 		}
