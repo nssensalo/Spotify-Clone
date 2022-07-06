@@ -6,7 +6,11 @@
 This app, built from scratch, allows for user registration, searching for favorite artist, albums, and songs in realtime, creation and customization of playlist, and use of music controls including play, pause, skip, previous, shuffle, and repeat.
 
 <p align="center" width="100%">
-    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/slotifyIndexSnippet.png" width="600" height="600" />
+    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/youmayalsolikePage.png" width="600" height="600" />
+</p>
+
+<p align="center" width="100%">
+    <img height="100%" src="https://github.com/nssensalo/Spotify-Clone/blob/main/assets/images/albumsnippet.png" width="600" height="600" />
 </p>
 
 
@@ -20,10 +24,12 @@ This app, built from scratch, allows for user registration, searching for favori
 <summary>Front-End Development</summary>
 
 
-**Html** 
+**CSS** 
 
   
-**Css**
+**PHP**
+
+**Html**
   
 </details>
 
@@ -31,13 +37,16 @@ This app, built from scratch, allows for user registration, searching for favori
 <summary>Back-End Development</summary>
 
 
-**Xampp** 
+**JavaScript** 
 
 
 **MySQLite** 
 
 
-**Javascrips** 
+**Ajax** 
+
+
+**Xampp**
 
 
 </details>
