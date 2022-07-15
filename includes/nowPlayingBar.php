@@ -171,11 +171,11 @@ function setTrack(trackId, newPlaylist, play) {
 
 		
 		audioElement.setTrack(track);
-		playSong();
+		
 	});
 	
 
-	if(play) {
+	if(play == true) {
 		audioElement.play();
 	}
 }
